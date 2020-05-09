@@ -29,7 +29,7 @@ class CashRegister
   end
   
   def void_last_transaction
-    @item_prices.sum
+    @item_prices.pop.sum
   end
     
 end
