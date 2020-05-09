@@ -22,7 +22,6 @@ class CashRegister
     else
       return "There is no discount to apply."
     end
-    @last_transaction_total = @total
   end
     
   def items
